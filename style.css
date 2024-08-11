@@ -149,10 +149,15 @@ button{
 #about h5{
     text-align: center;
     font-size: medium;
+    font-family: "Quicksand", sans-serif;    
 }
+#about p{
+    font-family: "Quicksand", sans-serif;
+}
+
 #about .card{
     /* margin: 50px;  */
-    margin-left: 90px;
+    margin-left: 60px;
 }
 
 /**************************** Shop By Concerns *************************/
@@ -176,7 +181,7 @@ button{
 }
 #project .card{
     /* margin: 50px;  */
-    margin-left: 90px;
+    margin-left: 60px;
 }
 /**************************** New Products *************************/
 
@@ -221,7 +226,8 @@ button{
 }
 
 #down:hover{
-    /*  */
+    scale: 1.01;
+    text-shadow: #292929 1px;
 }
 
 /**************** Below Notes ******************/
@@ -370,10 +376,11 @@ footer li a{
     text-decoration: none;
 }
 .fafa{
-    font-size: 30px;
+    font-size: 20px;
     justify-content: space-evenly;
 }
-
-
+#pass{
+    font-family: "Quicksand", sans-serif;
+}
 
 /*  ************************************************************************  */
