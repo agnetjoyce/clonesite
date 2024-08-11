@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
+    /* font-family: "Inter", sans-serif; */
+
+    /* height: 800px; */
+}
+
+header{
+    text-align: center;
+    font-size: medium;
+    height: 40px;
+    color: #ffffff;
+    background-color: #ff8c00;
+    padding-top: 10px;
+
+}
+nav img{
+    margin-right: 1120px;
+    height: 80px;
+    padding-bottom: 19px; 
+    /* position: absolute; */
+    
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav ul{
+    padding-top: 10px;
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+    margin-left: 100px;
+    font-family: "Quicksand", sans-serif;
+}
+nav ul li a{
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+    justify-content: space-evenly;
+ 
+}
+nav ul li a:hover{
+    /* text-shadow: 2px 2px black; */
+    text-decoration: underline;
+    
+}
+
+nav li i{
+    font-size: 25px;
+    padding-left: 60px;
+    width: 50px;
+} 
+.banner{
+    background-color: #ffffff;
+    height: 730px;
+}
+.banner img{
+    height: 570px;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.note1{
+    display: flexbox;
+    margin-left: 950px;
+    position: absolute;
+    bottom:50px;
+    font-size: 20px;
+}
+.note1 h1{
+    font-size: 45px;
+    font-family: "Inter", sans-serif;
+    /* font-style:oblique; */
+}
+.banner button{
+    /* position: absolute; */
+    /* margin-left: px; */
+    background-color: black;
+    font-size: medium;
+    width: 190px;
+}
+button{
+    color: azure;
+    height: 50px;
+    background-color: #252525;
+    font-size: x-large;
+}
+/* **************************Our BestSellers***********************************/
+.home{
+    height: 1000px;
+    background-color:#ffffff;
+    display: flex;
+    flex-direction: column;
+}
+.home h1{
+    margin: 20px;
+    margin-left: 120px;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+}
+.home .card{
+    /* margin: 50px;  */
+    margin-left: 90px;
+}
+.card:hover{
+    scale: 1.02;
+}
+.row{
+    padding: 40px;
+}
+.col{
+    display: flex;
+}
+#down{
+    margin-top: 120px;
+    width: 200px;
+    border-radius: #000000;
+    background-color: #ffffff;
+    color: #000;
+}
+
+
+/**************************** Shop By Category *************************/
+
+#about{
+    height: 450px;
+    /* text-align: center; */
+}
+#about h1{
+    margin: 20px;
+    margin-left: 120px;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+}
+#about col{
+    padding: 50px;
+}
+#about h5{
+    text-align: center;
+    font-size: medium;
+}
+#about .card{
+    /* margin: 50px;  */
+    margin-left: 90px;
+}
+
+/**************************** Shop By Concerns *************************/
+#project{
+    height: 480px;
+    /* text-align: center; */
+}
+#project h1{
+    margin: 20px;
+    margin-left: 120px;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+}
+#project col{
+    padding: 50px;
+}
+#project h5{
+    text-align: center;
+    font-size: medium;
+    
+}
+#project .card{
+    /* margin: 50px;  */
+    margin-left: 90px;
+}
+/**************************** New Products *************************/
+
+#services{
+    height: 1000px;
+    background-color:#ffffff;
+    display: flex;
+    flex-direction: column;
+}
+#services h1{
+    margin: 20px;
+    margin-left: 120px;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+}
+#services .card{
+    /* margin: 50px;  */
+    margin-left: 90px;
+}
+.card{
+    /* margin: 50px;  */
+    /* margin-left: 90px; */
+    transition: transform 0.4s ease;
+    /* overflow: hidden; */
+}
+.card:hover{
+    scale: 1.02;
+    transform: scale(0.99) translateY(-9px); 
+}
+.row{
+    /* padding: 40px */
+}
+.col{
+    display: flex;
+}
+#down{
+    margin-top: 120px;
+    width: 200px;
+    border-radius: #000000;
+    background-color: #ffffff;
+    color: #000;
+}
+
+#down:hover{
+    /*  */
+}
+
+/**************** Below Notes ******************/
+#below{
+    height: 400px;
+    text-align: center;
+}
+
+#bel h1,p{
+    margin-top: 60px;
+    font-family: "Poppins", sans-serif;
+}
+.row1{
+    display: flex;
+    margin-left: 120px;
+    
+}
+.col1{
+    padding: 10px;
+}
+.col1 img{
+    width: 300px;
+    height: 300px;
+    
+}
+/**************** Reviews ******************/
+
+#reviews{
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+}
+#reviews .card{
+    /* margin: 50px;  */
+    margin-left: 40px;
+}
+
+#reviews h1{
+    margin: 20px;
+    margin-left: 120px;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+}
+#reviews h6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+#reviews p{
+    font-size: larger;
+}
+#reviews col2{
+    gap: -2 rem;
+}
+/***************************** Review Carousel ************************************/
+
+.carousel {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    gap: 0rem; /* Space between the cards */
+    scroll-behavior: smooth; /* Smooth scrolling */
+    padding: 10px ; /* Optional padding */
+}
+
+.carousel::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for cleaner look */
+}
+
+.col2 {
+    flex: 0 0 auto; /* Prevent columns from shrinking */
+}
+
+/*********** Download ***************/
+#download{
+    height: 1020px;
+}
+
+#download .card{
+    margin-left: 140px;
+    width: 650px;
+    height: 890px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #a4a1a1; 
+    border-radius: px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+#download .card:hover{
+    scale: 1.001;
+}
+#download img{
+    width: 650px;
+    height: 651px;
+    /* position: relative; */
+    justify-content: center;
+}
+#download .container {
+    position: absolute; 
+    height: 238px;
+    bottom: 0px; 
+    color: #0a0909; 
+    background: rgba(188, 178, 166, 0.5); 
+    padding: 10px; 
+    text-align: center;
+    
+}
+.container h4 {
+    font-family: "Inter", sans-serif;    
+}
+#downt{
+    /* margin-top: 120px; */
+    width: 200px;
+    border-radius: #000000;
+    background-color: rgba(189, 182, 174, 0.2);
+    color: #000;
+}
+
+.row3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2px;
+    /* margin-right: 140px; */
+}
+#download .card{
+    /* margin: 50px;  */
+    margin-left: 0px;
+    margin: 20px;
+}
+.col3{
+    /* padding: 0px; */
+}
+.gol,.gol2{
+    margin: 0;
+}
+
+footer li a{
+    text-decoration: none;
+}
+.bg-body-dark{
+    background-color: #292929;
+    color: #ffffff;
+}
+#last{
+    color: #ffffff;
+    text-decoration: none;
+}
+.fafa{
+    font-size: 30px;
+    justify-content: space-evenly;
+}
+
+
+
+/*  ************************************************************************  */
